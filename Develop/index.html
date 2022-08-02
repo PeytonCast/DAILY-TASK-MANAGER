@@ -26,13 +26,70 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h2 id="cur-day">current day</h2>
+      <h3 id="cur-time"></h3>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <form id="nine-am" class="mb-2 bg-light text-dark">
+        <label for="9am-text" id="9am" class="font p-4 mb-0 bg-info text-light ">9 am</label>
+        <textarea placeholder="add event" name="apointment" id="9am-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+
+      <form id="ten-am" class="mb-2 bg-light text-dark">
+        <label for="10am-text" id="10am" class="font p-4 mb-0 bg-info text-light">10am</label>
+        <textarea placeholder="add event" name="apointment" id="9am-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+
+      <form id="eleven-am" class="mb-2 bg-light text-dark">
+        <label for="11am-text" id="11am" class="font p-4 mb-0 bg-info text-light">11am</label>
+        <textarea placeholder="add event" name="apointment" id="11am-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+
+      <form id="twelve-pm" class="mb-2 bg-light text-dark">
+        <label for="12pm-text"id="12pm" class="font p-4 mb-0 bg-info text-light">12pm</label>
+        <textarea placeholder="add event" name="apointment" id="12pm-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+
+      <form id="one-pm" class="mb-2 bg-light text-dark">
+        <label for="1pm-text" id="1pm" class="font p-4 mb-0 bg-info text-light">1pm</label>
+        <textarea placeholder="add event" name="apointment" id="1pm-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+
+      <form id="two-pm" class="mb-2 bg-light text-dark">
+        <label for="2pm-text" id="2pm" class="font p-4 mb-0 bg-info text-light">2pm</label>
+        <textarea placeholder="add event" name="apointment" id="2pm-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+
+      <form id="three-pm" class="mb-2 bg-light text-dark">
+        <label for="3pm-text" id="3pm" class="font p-4 mb-0 bg-info text-light">3pm</label>
+        <textarea placeholder="add event" name="apointment" id="3pm-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+
+      <form  id="four-pm" class="mb-2 bg-light text-dark">
+        <label for="4pm-text" id="4pm" class="font p-4 mb-0 bg-info text-light">4pm</label>
+        <textarea placeholder="add event" name="apointment" id="4pm-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+
+      <form id="five-pm" class="mb-2 bg-light text-dark">
+        <label for="5pm-text" id="5pm" class="font p-4 mb-0 bg-info text-light">5pm</label>
+        <textarea placeholder="add event" name="apointment" id="5pm-text" cols="30" rows="2" class="p-0 mt-2 bg-light"></textarea>
+        <button id="save" class="p-4 bg-info text-white rounded">save</button>
+      </form>
+  
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
