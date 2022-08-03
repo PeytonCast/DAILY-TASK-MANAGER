@@ -79,6 +79,7 @@ p{
   display: inline-block;}
 
 button {
+  border:0px;
   margin-right: auto;
   float: right;
 }
