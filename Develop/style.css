@@ -69,3 +69,19 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+.font{
+  font-size: 25spx;
+}
+input{
+  border:0px;}
+p{
+  font-size: 20px;
+  display: inline-block;}
+
+button {
+  margin-right: auto;
+  float: right;
+}
+#clear {
+  float: left;
+}
