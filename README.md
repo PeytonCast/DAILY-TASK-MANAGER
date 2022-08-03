@@ -2,7 +2,7 @@
 Is your life in chaos? Do you know what you need?
 Thats right! A planner!
 Lucky for you in this repository is a BRAND NEW planer just waiting for someone to use it!
-The hours of the day are color coded *red* for the curent hour *dark grey* for the past hours and green for the future hours!
+The hours of the day are color coded *red* for the curent hour, *dark grey* for the past hours, and green for the future hours!
 How lovely, BUT WAIT there's *MORE* you can add events and save them to local storage!!!
 AND DO YOU KNOW WHAT'S THE *BEST PART?*
 ITS ALL *FREE* THAT RIGHT *FREE!!!!*	
